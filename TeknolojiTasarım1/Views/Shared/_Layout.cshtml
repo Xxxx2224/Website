@@ -1,0 +1,389 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TeknolojiTasarım1</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TeknolojiTasarım1.styles.css" asp-append-version="true" />
+</head>
+<body class="layouts">
+    <div class="divtepe">
+        <div class="marka"></div>
+        <div class="divarama">
+            <form class="form" asp-action="index" asp-controller="home" method="post">
+             <input class="input" type="text" name="ara" placeholder="Arama Yapabilirisiniz...">
+             <input class="submit" type="submit" value="" >
+           </form>
+        </div>
+        <div class="ilan111">
+            <a class="a13" asp-area="" asp-controller="Home" asp-action="ilan">
+                <div class="divgiris">
+                    <span class="span1">İlan vermek İçin...</span>
+                </div>
+            </a>
+        </div>
+            
+    </div>
+    <div class="div1">
+      <button class="buton" onclick="toggleKategoriler()"><span>Tümü</span></button>
+        <div class="div2"> <a class="a1" asp-area="" asp-controller="home" asp-action="Elektronik">Elektronik</a></div>
+        <div class="div3"><a class="a2" asp-area="" asp-controller="Home" asp-action="Index">AnaSayfa</a></div>
+        <div class="div4"><a class="a3" asp-area="" asp-controller="Home" asp-action="Privacy"><span>Gizlilik</span></a></div>
+        <div class="div5"><a class="a4" asp-area="" asp-controller="Home" asp-action="Kitap"><span>Kitap</span></a></div>
+        <div class="div5"><a class="a5" asp-area="" asp-controller="Home" asp-action="Giyim"><span>Giyim</span></a></div>
+        <div class="div5"><a class="a6" asp-area="" asp-controller="Home" asp-action="EvAletleri"><span>Ev Aletleri</span></a></div>
+        <div class="div5"><a class="a7" asp-area="" asp-controller="Home" asp-action="Otomotiv"><span>Otomotiv</span></a></div>
+        <div class="div5"><a class="a8" asp-area="" asp-controller="Home" asp-action="Mobilya"><span>Mobilya</span></a></div>
+        <div class="div5"><a class="a9" asp-area="" asp-controller="Home" asp-action="Oyuncak"><span>Oyuncak</span></a></div>
+        <div class="div5"><a class="a10" asp-area="" asp-controller="Home" asp-action="Spor"><span>Spor</span></a></div>
+        <div class="div5"><a class="a11" asp-area="" asp-controller="Home" asp-action="Sağlık"><span>Sağlık</span></a></div>
+        <div class="div5"><a class="a12" asp-area="" asp-controller="Home" asp-action="Oyun"><span>Oyun</span></a></div>
+        <div class="div6">
+            <a class="a13" asp-area="" asp-controller="Home" asp-action="Login">
+                <div class="divgiris">
+                    <span class="span1">Giriş</span>
+                </div>
+            </a>
+        </div>
+</div>
+    <div class="altkategoriler1" id="altKategoriler">
+      <div class="div10">
+            <a class="E" asp-area="" asp-controller="home" asp-action="Elektronik">Elektronik</a>
+            <div class="div101">
+                <div class="div1010">
+                    Dizüstü Bilgisayar
+                </div>
+                <div class="div1011">
+                    Masaüstü Bilgisayar
+                </div>
+                <div class="div1012">
+                   Cep Telefonu ve Aksesuarları
+                </div>
+                <div class="div1013">
+                    Televizyon
+                </div>
+                <div class="div1014">
+                    Hoparlör
+                </div>
+                <div class="div1015">
+                    Akıllı Saat
+                </div>
+                <div class="div1016">
+                    Piller
+                </div>
+                <div class="div1017">
+                   Tabletler
+                </div>
+            </div>
+         </div>
+        <div class="div11">
+            Giyim
+            <div class="div102">
+                <div class="div1020">
+                   T-shirt
+                </div>
+                <div class="div1021">
+                    Kış ve Yazlık Mont
+                </div>
+                <div class="div1022">
+                    Kazaklar
+                </div>
+                <div class="div1023">
+                   Spor Ayakkabı
+                </div>
+                <div class="div1024">
+                    Kışlık Botlar
+                </div>
+                <div class="div1025">
+                    Sweatshirt
+                </div>
+                <div class="div1026">
+                    Pantalon
+                </div>
+                <div class="div1027">
+                    Eşofmanlar
+                </div>
+                <div class="div1028">
+                    Palto ve Kabanlar
+                </div>
+                <div class="div1029">
+                    Şapkalar
+                </div>
+                <div class="div1029a">
+                    Gözlükler
+                </div>    
+            </div>
+        </div>
+        <div class="div12">
+            Kitap
+             <div class="div103">
+                 <div class="div1030">
+                     Edebiyat
+                 </div>
+                <div class="div1031">
+                    Tarih
+                </div>
+                <div class="div1032">
+                    Çocuk ve Gençlik
+                </div>
+                <div class="div1033">
+                    Eğitim ve Sınav
+                </div>
+                <div class="div1034">
+                    Din Tasavvuf
+                </div>
+                <div class="div1035">
+                    Sanat-Tasarım
+                </div>
+                <div class="div1036">
+                     Felsefe
+                </div>
+                <div class="div1037">
+                    Roman
+                </div>
+                <div class="div1038">
+                    Bilim
+                </div>
+            </div>
+        </div>
+        <div class="div13">
+            Ev Aletleri
+            <div class="div104">
+                <div class="div1040">
+                    Mutfak Aletleri
+                </div>
+                <div class="div1040">
+                    Temizlik Aletleri
+                </div>
+                <div class="div1040">
+                    Elektrikli Ev Aletleri
+                </div>
+                <div class="div1040">
+                    Isıtma ve Soğutma
+                </div>
+                <div class="div1040">
+                    Ütü ve Ütü Masaları
+                </div>
+                <div class="div1040">
+                    Kişisel Bakım
+                </div>
+                <div class="div1040">
+                    Ev Güvenliği
+                </div>
+                <div class="div1040">
+                    Aydınlatma
+                </div>
+                <div class="div1040">
+                    Diğer Ev Aletleri
+                </div>
+            </div>
+        </div>
+        <div class="div14">
+            Otomotiv
+            <div class="div105">
+                <div class="div1050">
+                    Araç Bakım ve Onarım
+                </div>
+                <div class="div1050">
+                    Lastik ve Jant
+                </div>
+                <div class="div1050">
+                    Elektrik ve Elektronik Aksesuarlar
+                </div>
+                <div class="div1050">
+                    İç ve Dış Aksesuarlar
+                </div>
+                <div class="div1050">
+                    Navigasyon ve Multimedya
+                </div>
+                <div class="div1050">
+                    Güvenlik ve Acil Durum Ekipmanları
+                </div>
+                <div class="div1050">
+                    Yağ ve Akaryakıt Ürünleri
+                </div>
+                <div class="div1050">
+                    Oto Temizlik ve Bakım
+                </div>
+                <div class="div1050">
+                    Diğer Otomotiv Ürünleri
+                </div>
+            </div>
+        </div>
+        <div class="div15">
+            Mobilya
+            <div class="div106">
+                <div class="div1060">
+                    Oturma Grupları
+                </div>
+                <div class="div1060">
+                    Yemek Odası Takımları
+                </div>
+                <div class="div1060">
+                    Yatak Odası Mobilyaları
+                </div>
+                <div class="div1060">
+                    Ofis Mobilyaları
+                </div>
+                <div class="div1060">
+                    Depolama ve Raflar
+                </div>
+                <div class="div1060">
+                    Bahçe Mobilyaları
+                </div>
+                <div class="div1060">
+                    Çocuk Mobilyaları
+                </div>
+                <div class="div1060">
+                    TV Üniteleri
+                </div>
+                <div class="div1060">
+                    Diğer Mobilya Ürünleri
+                </div>
+            </div>
+        </div>
+        <div class="div16">
+            Oyuncak
+            <div class="div107">
+                <div class="div1070">
+                    Ahşap Oyuncaklar
+                </div>
+                <div class="div1070">
+                    Eğitici Oyuncaklar
+                </div>
+                <div class="div1070">
+                    Puzzle ve Zeka Oyunları
+                </div>
+                <div class="div1070">
+                    Bebek ve Peluş Oyuncaklar
+                </div>
+                <div class="div1070">
+                    Oyun Hamurları ve Boya Setleri
+                </div>
+                <div class="div1070">
+                    Dış Mekan Oyunları
+                </div>
+                <div class="div1070">
+                    Robot ve Elektronik Oyuncaklar
+                </div>
+                <div class="div1070">
+                    Oyuncak Araçlar ve Modeller
+                </div>
+                <div class="div1070">
+                    Diğer Oyuncaklar
+                </div>
+            </div>
+        </div>
+        <div class="div17">
+            Spor
+            <div class="div108">
+                <div class="div1080">
+                    Fitness ve Egzersiz Ekipmanları
+                </div>
+                <div class="div1080">
+                    Spor Giyim ve Ayakkabı
+                </div>
+                <div class="div1080">
+                    Outdoor ve Kamp Malzemeleri
+                </div>
+                <div class="div1080">
+                    Koşu ve Yürüyüş Malzemeleri
+                </div>
+                <div class="div1080">
+                    Bisiklet ve Aksesuarları
+                </div>
+                <div class="div1080">
+                    Su Sporları Ekipmanları
+                </div>
+                <div class="div1080">
+                    Toplar ve Raketler
+                </div>
+                <div class="div1080">
+                    Yoga ve Pilates Malzemeleri
+                </div>
+                <div class="div1080">
+                    Diğer Spor Ürünleri
+                </div>
+            </div>
+        </div>
+        <div class="div18">
+            Sağlık
+            <div class="div109">
+                <div class="div1090">
+                    Vitamin ve Takviyeler
+                </div>
+                <div class="div1090">
+                    Sağlık Cihazları
+                </div>
+                <div class="div1090">
+                    İlk Yardım ve Tıbbi Malzemeler
+                </div>
+                <div class="div1090">
+                    Sağlık ve Bakım Ürünleri
+                </div>
+                <div class="div1090">
+                    Diyet ve Beslenme Ürünleri
+                </div>
+                <div class="div1090">
+                    Spor ve Fitness Takviyeleri
+                </div>
+                <div class="div1090">
+                    Hijyen Ürünleri
+                </div>
+                <div class="div1090">
+                    Kişisel Bakım Ürünleri
+                </div>
+                <div class="div1090">
+                    Diğer Sağlık Ürünleri
+                </div>
+            </div>
+        </div>
+        <div class="div19">
+            Oyun
+            <div class="div200">
+                <div class="div2000">
+                    Masa Oyunları
+                </div>
+                <div class="div2000">
+                    Puzzle ve Bulmacalar
+                </div>
+                <div class="div2000">
+                    Kart Oyunları
+                </div>
+                <div class="div2000">
+                    Strateji ve Zeka Oyunları
+                </div>
+                <div class="div2000">
+                    Parti Oyunları
+                </div>
+                <div class="div2000">
+                    Bilgisayar ve Konsol Oyunları
+                </div>
+                <div class="div2000">
+                    Aile ve Çocuk Oyunları
+                </div>
+                <div class="div2000">
+                    Oyun Konsolları ve Aksesuarları
+                </div>
+                <div class="div2000">
+                    Diğer Oyun ve Eğlence Ürünleri
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿@model List<xxx1>
+
+<div class="divh1">
+    <h1 class="h1">
+        Tüm İlanlar
+    </h1>
+</div>
+
+<div class="ilanx">
+
+    <div class="ilansablonx">
+        <div class="urun1x">
+            <span style="color:black;">Başlık</span>
+        </div>
+        <div class="urun2x">
+            <span style="color:black;">Açıklama</span>
+        </div>
+        <div class="urun3x">
+            <span style="color:black;">Fiyat</span>
+        </div>
+        <div class="urun4x">
+            <span style="color:black;">Kategori</span>
+        </div>
+        <div class="urun5x">
+            <span style="color:black;">Resim</span>
+        </div>
+    </div>
+</div>
+<div class="ilan1">
+    @foreach (var raw in Model)
+    {
+        <div class="ilansablon">
+            <div class="urun1">
+                <span style="color:black;">@raw.baslık</span>
+            </div>
+            <div class="urun2">
+                <span style="color:black;">@raw.id</span>
+            </div>
+            <div class="urun3">
+                <span style="color:black;"> @raw.fiyat</span>
+            </div>
+            <div class="urun4">
+                <span style="color:black;"> @raw.kategori</span>
+            </div>
+            <div class="urun5">
+                <img class="resim1" src="@raw.resim">
+            </div>
+        </div>
+    }
+</div>

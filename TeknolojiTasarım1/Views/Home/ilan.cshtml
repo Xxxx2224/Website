@@ -1,0 +1,31 @@
+﻿
+<div class="ilann">
+    <h1 class="ilann1"> İlan Ver</h1>
+    <form class="ilann2" asp-action="verial" asp-controller="home" method="post">
+        <label class="ilann3" for="kategori">Başlık:</label>
+        <input class="ilann4" type="text"  name="baslik" />
+        <label class="ilann3" for="kategori">Kategori:</label>
+        <select class="ilann4" id="kategori" name="kategori" required>
+            <option value="elektronik">Elektronik</option>
+            <option value="giyim">Giyim</option>
+            <option value="Ev Aletleri">Ev Aletleri</option>
+            <option value="Kitap">Kitap</option>
+            <option value="Otomotiv">Otomotiv</option>
+            <option value="Mobilya">Mobilya</option>
+            <option value="Oyuncak">Oyuncak</option>
+            <option value="Spor">Spor</option>
+            <option value="Sağlık">Sağlık</option>
+            <option value="Oyun">Oyun</option>
+            
+        </select>
+        <label class="ilann3" for="aciklama">İlan Açıklaması:</label>
+        <textarea class="ilann4" id="aciklama" name="isim" rows="4" required></textarea>
+        <label class="ilann3" for="fiyat">Fiyat (₺):</label>
+        <input class="ilann4" type="number" id="fiyat" name="fiyat" required>
+        <label class="ilann3" for="fiyat">Resim URL:</label>
+        <input class="ilann4" type="url" id="fiyat" name="resim1" required>
+        
+
+        <button class="ilann5" type="submit">İlan Ver</button>
+    </form>
+</div>

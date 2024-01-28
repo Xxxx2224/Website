@@ -1,0 +1,37 @@
+﻿
+@{
+	ViewData["Title"] = "Login";
+}
+
+    
+<h2>Giriş Yap</h2>
+<form class="formgiris"  asp-action="Login1" asp-controller="home" method="post">
+    <div class="formgrup">
+        <label for="username">Kullanıcı Adı:</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+    <div class="formgrup">
+        <label for="password">Şifre:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <button type="submit" class="giris">Giriş Yap</button>
+</form>
+<button class="kaydolll" onclick="abc()"><span>kaydol</span></button>
+<div class="kaydoll" id="kaydolll">
+<form class="formkaydol" asp-action="kaydol" asp-controller="home" method="post">
+    <div class="formgrup">
+        <label for="username">Kullanıcı Adı:</label>
+        <input type="text" id="username1" name="username1" required>
+    </div>
+    <div class="formgrup">
+        <label for="password">Şifre:</label>
+        <input type="password" id="password1" name="password1" required>
+    </div>
+    <button type="submit" class="giris">Kaydol</button>
+    </form>
+</div>
+
+
+
+
+

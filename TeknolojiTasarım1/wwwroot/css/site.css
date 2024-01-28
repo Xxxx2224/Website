@@ -1,0 +1,568 @@
+html {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  .div2, .div3, div4, .div5{
+
+      display: none;
+  }
+
+  .div1{
+      display: flex;
+      justify-content: space-between;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    height: 100%;
+    width:100%;
+}
+.div1 {
+    width: 100%;
+    height: 50px;
+    background-color: #1d2e4b;
+}
+.altkategoriler1 {
+    cursor: pointer;
+    padding-left: 0px;
+    height: 500px;
+    position: absolute;
+    margin-left:0%;
+    color: black;
+    background-color: #efefef;
+    z-index: 1;
+    display: none;
+    margin-top: 0px;
+    width: 105px;
+    padding-top: 0.4%;
+}
+
+.buton {
+    padding-left: 0%;
+    float: left;
+    margin-top: 10px;
+    height: 30px;
+    width: 3%;
+    margin-left: 1%;
+    background-color: #1d2e4b;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.buton:hover {
+        box-shadow: 0px 6px 16px 0 rgba(0,0,0,0.24), 0px 9px 50px 0 rgba(0,0,0,0.19);
+    }
+.div101{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 500px;
+    width: 300px;
+    display: none;
+    margin-left: 85px;
+    background-color: #efefef;
+    margin-top: -36px;
+}
+.div10:hover .div101 {
+    display: block;
+}
+.div11:hover .div102{
+    display:block;
+}
+.div12:hover .div103{
+    display:block;
+}
+.div13:hover .div104 {
+    display: block;
+}
+.div14:hover .div105 {
+    display: block;
+}
+.div15:hover .div106 {
+    display: block;
+}
+.div16:hover .div107 {
+    display: block;
+}
+.div17:hover .div108 {
+    display: block;
+}
+.div18:hover .div109 {
+    display: block;
+}
+.div19:hover .div200 {
+    display: block;
+}
+
+.div10,.div11,.div12,.div13,.div14,.div15,.div16,.div17,.div18,.div19,.div20{ 
+    height:50px;
+    padding-left:20px;
+    padding-top:8px;
+}
+.div2,.div3,.div4,.div5,.div6 {
+    overflow:hidden;
+    float: left;
+    margin-top: 12px;
+    height: 30px;
+    width: 5%;
+    margin-left: 2%;
+    background-color: #1d2e4b;
+    color: white;
+    border: 0px;
+}
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8,.a9,.a10,.a11,.a12,.a13{
+    text-decoration: none;
+    color: white;
+    padding-top: 100px;
+    padding-left: 0%;
+    padding-right: 10%;
+}
+.div2:hover .a1{
+    color:red;
+}
+.div10:hover, .div11:hover, .div12:hover, .div13:hover, .div14:hover, .div15:hover, .div16:hover, .div17:hover, .div18:hover, .div19:hover, .div20:hover{
+    background-color:azure;
+}
+.div1010, .div1011, .div1012, .div1013, .div1014, .div1015, .div1016, .div1017, .div1020, .div1021, .div1022, .div1023, .div1024, .div1025, .div1026, .div1027, .div1028, .div1029{
+    padding-left: 0px;
+    padding-top: 5px;
+    height: 40px;  
+}
+.div1030, .div1031, .div1032, .div1033, .div1034, .div1035, .div1036, .div1037, .div1038,.div1040,.div1050,.div1060,.div1070,.div1080,.div1090,.div2000{
+    padding-left: 0px;
+    padding-top: 5px;
+    height: 40px;
+}
+.E {
+    text-decoration: none;
+    color: black;
+}
+.E:hover{
+    color:red;
+}
+.div102{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 500px;
+    width: 300px;
+    display: none;
+    margin-left: 85px;
+    background-color: #efefef;
+    margin-top: -86px;
+}
+.div103{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 500px;
+    width: 300px;
+    display: none;
+    margin-left: 85px;
+    background-color: #efefef;
+    margin-top: -136px;
+}
+.div104 {
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 500px;
+    width: 300px;
+    display: none;
+    margin-left: 85px;
+    background-color: #efefef;
+    margin-top: -186px;
+}
+.div105{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 500px;
+    width: 300px;
+    display: none;
+    margin-left: 85px;
+    background-color: #efefef;
+    margin-top: -236px;
+}
+.div106 {
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 500px;
+    width: 300px;
+    display: none;
+    margin-left: 85px;
+    background-color: #efefef;
+    margin-top: -286px;
+}
+.div107 {
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 500px;
+    width: 300px;
+    display: none;
+    margin-left: 85px;
+    background-color: #efefef;
+    margin-top: -336px;
+}
+.div108 {
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 500px;
+    width: 300px;
+    display: none;
+    margin-left: 85px;
+    background-color: #efefef;
+    margin-top: -386px;
+}
+.div109 {
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 500px;
+    width: 300px;
+    display: none;
+    margin-left: 85px;
+    background-color: #efefef;
+    margin-top: -436px;
+}
+.div200 {
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+    height: 500px;
+    width: 300px;
+    display: none;
+    margin-left: 85px;
+    background-color: #efefef;
+    margin-top: -486px;
+}
+    .a8 {
+        padding-left: 16px;
+    }
+.divtepe {
+    width: 100%;
+    height: 50px;
+    background-color: #1d2e4b;
+}
+.input {
+    float:left;
+    height:100%;
+    border:none;
+    color: black;
+    outline: none;
+    width:85%;
+    padding-left:4%;
+}
+.submit {
+    float: right;
+    height: 100%;
+    border: none;
+    color: black;
+    outline: none;
+    width: 15%;
+    background-image: url(../Resim/R.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.divarama {
+    overflow: hidden;
+    background-color: red;
+    width: 30%;
+    margin-left: 35%;
+    height: 40px;
+    position: absolute;
+    margin-top: 10px;
+    border-radius:15px;
+}
+.form{
+    height:100%;
+    width:100%;
+}
+.divlink1 {
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin-left: 200px;
+    float: left;
+    margin-top: 0px;
+}
+.divaltlink1 {
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    background-color: forestgreen;
+    color: yellow;
+}
+.resim1{
+    height:100%;
+    width:100%;
+}
+.divilk {
+    margin-left: -185px;
+    background-color: #b6cbff;
+    width: 130%;
+    height: 280px;
+}
+.divlink2 {
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin-left: 320px;
+    margin-top: 0px;
+    float: left;
+}
+.divlink11 {
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin-left: 150px;
+    margin-top: 0px;
+    float: left;
+}
+.divh4 {
+    width: 100%;
+    margin-left: -150px;
+    background-color: #b6cbff;
+}
+.ilan1 {
+    font-size: 20px;
+    margin-left: -185px;
+    width: 130%;
+    background-color: #dee0e5;
+}
+.ilanx {
+    font-size: 25px;
+    margin-left: -185px;
+    width: 130%;
+    background-color: #b6cbff;
+}
+
+.girisform {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formgrup {
+     width:80%;
+    display:flex;
+    flex-direction: column;
+}
+.formgrup label {
+        margin-bottom: 5px;
+        color: #666;
+}
+.formgrup input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+}
+.giris {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.div6 {
+    border-radius:10px;
+    text-align: center;
+    background-color: #1d53a1;
+}
+.divgiris{
+    height:100%;
+    width:100%;
+}
+.a13:hover{
+    color:aqua;
+}
+.marka {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -27px 54%;
+    background-image: url('../Resim/hjtvfegp.jpeg');
+    overflow: hidden;
+    background-color: #1d2e4b;
+    overflow: hidden;
+    width: 20%;
+    margin-left: 7%;
+    height: 40px;
+    position: absolute;
+    margin-top: 10px;
+}
+.urun1 {
+    color: white;
+    float: left;
+    width: 10%;
+    height: 100%;
+    background-color: #d5d5d5;
+}
+.urun2 {
+    float: left;
+    color: white;
+    width: 30%;
+    height: 100%;
+    background-color: #d5d5d5;
+}
+.urun3 {
+    float: left;
+    color: black;
+    width: 20%;
+    height: 100%;
+    background-color: #d5d5d5;
+}
+.urun4 {
+    float: left;
+    color: black;
+    width: 20%;
+    height: 100%;
+    background-color: #d5d5d5;
+}
+.urun5 {
+    float: left;
+    color: white;
+    width: 20%;
+    height: 100%;
+    background-color: #d5d5d5;
+}
+.urun1x {
+    padding-top:1.5%;
+    color: white;
+    float: left;
+    width: 10%;
+    height: 50px;
+    background-color: #b6cbff;
+}
+
+.urun2x {
+    padding-top: 1.5%;
+    float: left;
+    color: white;
+    width: 30%;
+    height: 50px;
+    background-color: #b6cbff;
+}
+
+.urun3x {
+    padding-top: 1.5%;
+    float: left;
+    color: black;
+    width: 20%;
+    height: 50px;
+    background-color: #b6cbff;
+}
+
+.urun4x {
+    padding-top: 1.5%;
+    float: left;
+    color: black;
+    width: 20%;
+    height: 50px;
+    background-color: #b6cbff;
+}
+
+.urun5x {
+    padding-top: 1.5%;
+    float: left;
+    color: white;
+    width: 20%;
+    height: 50px;
+    background-color: #b6cbff;
+}
+.ilansablon {
+    margin-top:5px;
+    width: 100%;
+    background-color: #dee0e5;
+    height: 200px;
+}
+.ilansablonx {
+    width: 100%;
+    background-color: #b6cbff;
+    height: 60px;
+}
+
+.ilann {
+    width:100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ilann1 {
+    text-align: center;
+    color: #333;
+}
+
+.ilann2 {
+    display: flex;
+    flex-direction: column;
+}
+.ilann3 {
+    margin-top: 10px;
+    color: #555;
+}
+
+.ilann4{
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.ilann5{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .ilann5:hover {
+        background-color: #0056b3;
+    }
+.kaydoll{
+    display:none;
+}
+.kaydolll{
+    margin-top:30px;
+    margin-left:00px;
+}
+.ilan111 {
+    border-radius: 10px;
+    background-color: #1d53a1;
+    padding: 5px;
+    text-align: center;
+    margin-left: 85%;
+    width: 10%;
+    color: red;
+    height: 40px;
+    position: absolute;
+    margin-top: 10px;
+}
+.layouts {
+    background-color: #b6cbff;
+}
