@@ -1,1 +1,1 @@
-# TeknolojiTasarım1
+ASP.NET ve MySQL kullanılarak geliştirilmiş giriş seviyesi bir web uygulaması.
